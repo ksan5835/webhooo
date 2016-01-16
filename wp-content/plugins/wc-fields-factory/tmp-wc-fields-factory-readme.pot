@@ -1,0 +1,338 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WC Fields Factory"
+msgstr ""
+
+#. Short description.
+msgid "It allows you to add custom fields to your woocommerce product page, to get additional information from customers while adding products to cart."
+msgstr ""
+
+#. Screenshot description.
+msgid "Wccpf product custom fields list"
+msgstr ""
+
+#. Screenshot description.
+msgid "Wccpf fields factory"
+msgstr ""
+
+#. Screenshot description.
+msgid "Wccpf rules"
+msgstr ""
+
+#. Screenshot description.
+msgid "Wccpf settings"
+msgstr ""
+
+#. Found in description header.
+msgid "How it Works"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Supported Field Types"
+msgstr ""
+
+#. Found in description header.
+msgid "Documentation"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create a fields group"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add fields to the group"
+msgstr ""
+
+#. Found in description list item.
+msgid "Assign fields group to whatever products or products category you want"
+msgstr ""
+
+#. Found in description list item.
+msgid "Powerful interface to create your custom fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Validation and custom messages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Grouping custom fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Assign groups to particular product or to particular product categories"
+msgstr ""
+
+#. Found in description list item.
+msgid "Cloning custom fields ( fields per product quantity )"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically embeds custom fields meta into cart page, checkout page, order page and order confirmation emails"
+msgstr ""
+
+#. Found in description list item.
+msgid "Powerful API to customize the appearance of custom fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Text "
+msgstr ""
+
+#. Found in description list item.
+msgid "Number"
+msgstr ""
+
+#. Found in description list item.
+msgid "Email"
+msgstr ""
+
+#. Found in description list item.
+msgid "Text Area "
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkbox"
+msgstr ""
+
+#. Found in description list item.
+msgid "Radio "
+msgstr ""
+
+#. Found in description list item.
+msgid "Select"
+msgstr ""
+
+#. Found in description list item.
+msgid "Date Picker"
+msgstr ""
+
+#. Found in description list item.
+msgid "Color Picker"
+msgstr ""
+
+#. Found in description list item.
+msgid "File"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://sarkware.com/wc-fields-factory-a-wordpress-plugin-to-add-custom-fields-to-woocommerce-product-page/\">Getting Started</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://sarkware.com/how-to-change-wc-fields-factory-custom-product-fields-rendering-behavior/\">Customize Rendering Behavior</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://sarkware.com/woocommerce-change-product-price-dynamically-while-adding-to-cart-without-using-plugins/#override-price-wc-fields-factory\">Overriding Product Prices</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you ever wanted to get additional informations from customers while adding woocommerce products to cart, This is the plugin all you need. It allows you to add custom fields to your woocommerce product page. You can add custom fields and validations without tweaking any of your theme's code &amp; templates, It also allows you to group the fields and add them to particular products or for particular product categories."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Ensure you have latest version of WooCommerce plugin installed ( 2.2 or above )"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip and upload contents of the plugin to your /wp-content/plugins/ directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Use the \"Add New\" button from \"Fields Factory\" menu in the wp-admin to create custom fields for woocommerce product page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First Public Release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"wccpf/before/field/rendering\" and \"wccpf/after/field/rendering\" actions has been added to customize wccpf fields rendering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue fixing with \"ACF\" meta key namespace collition. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hiding empty fields from cart table, checkout order review table and order meta."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validation issue fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue fixed ( warning log for each non mandatory custom fields )."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some css changes ( only class name ) to avoid collision with Bootstrap. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Date picker field type added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Color picker field type added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now custom fields data has been saved in session through 'woocommerce_add_cart_item_data' hook"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom fields rendered on cart &amp; checkout page using 'woocommerce_get_item_data' ( actually rendered via 'cart-item-data.php' template )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Order meta ( as well as email ) not added Issue fixed   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "utf-8 encoding issue fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalization support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Select field with variable product - issue fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Order conflict while updating fields - issue fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Newline character ( for select, checkbox and radio ) - issue fixed "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed \"Missing argument\" error log warning message    "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Woocommerce 2.4.X compatible "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File upload field type added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalization ( i18n ) support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add to cart validation issue fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fields cloning option added ( Fields per count, If customer increase product count custom fields also cloned )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<p>Visibility of custom meta can be set ( show or hide on cart &amp; checkout page )</p>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<p>Setting page added</p>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Visibility Option - you can set custom data visibility globally ( applicable for all custom fields - created by this plugin )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field Location - you can specifiy where the custom fields should be included."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable or Disbale - fields cloning option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Grouping the meta on cart &amp; checkout page, option added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Grouping custom fields on cart &amp; checkout page, option added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set label for fields group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option to disable past or future dates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option to disbale particular week days"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Read only option added for Datepicker textbox ( usefull for mobile view )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "heigher value z-index applied for datepickers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pallete option added to color picker"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option to show only palette or along with color picker"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Color format option added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple colour pickers issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "wccpf_init_color_pickers undefined issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Group title index will be hidden if product count is 1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minimum product quantity issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File type validation issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Zero fields message\" while deleting custom fields ( on wp-admin )"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Visibility of custom meta can be set ( show or hide on cart &amp; checkout page )"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Setting page added"
+msgstr ""
