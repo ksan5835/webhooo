@@ -8,6 +8,9 @@ Template: ascent
 */
 
 /*menu start*/
+
+
+*{ padding:0px;}
 #colophon {
     background: #3a3c41 none repeat scroll 0 0;
     border-top: 0px solid #1abc9c !important;
