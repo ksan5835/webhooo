@@ -120,6 +120,13 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     color: #2C2D31;
 }
 
+
+
+.wpb_content_element h2{font-family: 'Orbitron', sans-serif !important;}
+.wpb_text_column p{ text-align:center;}
+.wpb_content_element{ margin-bottom:10px !important;}
+.wpb_wrapper p{ font-size:1.1em !important; line-height:25px !important; color:#414141 !important;}
+
 /* Alignment */
 
 .alignleft {
@@ -311,9 +318,18 @@ body {
     font-family: 'Open Sans', sans-serif, arial;
     font-size: 13px;
 }
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Open Sans', sans-serif, arial;
+
+h2, h3{
+   font-family: 'Orbitron', sans-serif !important;
+   font-size:3em;
 }
+
+
+h1, h4, h5, h6{
+   font-family: 'Open Sans', sans-serif, arial;
+}
+
+p{  font-family: 'Open Sans', sans-serif, arial;}
 a, a:link {}
 
 /* My Minimal WordPress Styling comes here */
@@ -328,6 +344,7 @@ a, a:link {}
     box-shadow: 1px 1px 4px #ddd;
     -moz-box-shadow: 1px 1px 4px #ddd;
     -webkit-box-shadow: 1px 1px 4px #ddd;
+	z-index:1;
 }
 .site-branding {
     padding-top: 0;
@@ -379,8 +396,8 @@ ul.social-icons li.social-icon a {
     display: block;
 }
 .header-bottom {
-    padding: 18px 0;
-    background: #FFF;
+    padding: 5px 0 0 0;
+    background-color:transparent;
 }
 #header-main.sticky {
     position: fixed;
@@ -388,9 +405,10 @@ ul.social-icons li.social-icon a {
     left: 0;
     right: 0;
     z-index: 9999;
-    box-shadow: 1px 1px 8px #AAA;
+   /* box-shadow: 1px 1px 8px #AAA;
     -webkit-box-shadow: 1px 1px 8px #AAA;
-    -moz-box-shadow: 1px 1px 8px #AAA;
+    -moz-box-shadow: 1px 1px 8px #AAA;*/
+	 background:rgba(0,0,0,0.4);
 }
 .site-header h1 {
     font-size: 30px;
@@ -405,7 +423,7 @@ ul.social-icons li.social-icon a {
 ---------------------------------------------------------------------------------- */
 
 .header-search {
-    margin-top: 0;
+    margin-top: 14px;
     cursor: pointer;
 }
 .header-search:hover {
@@ -413,9 +431,9 @@ ul.social-icons li.social-icon a {
     filter: alpha(opacity=80);
 }
 #header-search-button {
-    background: #F4F4F4;
+    background:transparent;
     border: 1px solid #DDD;
-    color: #BABEC4;
+    color: #fff;
     padding: 5px 10px;
     font-size: 18px;
     margin-left: 5px;
@@ -423,6 +441,11 @@ ul.social-icons li.social-icon a {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
 }
+
+
+#header-search-button:hover{ border: 1px solid #fff;}
+
+
 .header-search-form-wrap {
     display: none;
     position: absolute;
@@ -492,20 +515,22 @@ nav.main-menu ul > li {
     position: relative;
 }
 nav.main-menu ul > li a {
-    width: 100%;
+
+
+   border-radius: 0;
+    color: #fff;
     display: block;
-    padding: 8px 15px;
-    text-decoration: none;
-    color: #333;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 700;
+    padding: 25px 12px 15px 12px;
     text-align: left;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+    text-decoration: none;
+    width: 100%;
 }
 nav.main-menu ul > li a:hover {
     text-shadow: none;
+	transition:none;
+	
 }
 nav.main-menu ul > li ul {
     z-index: 9999;
@@ -531,6 +556,7 @@ nav.main-menu ul > li ul li a {
 }
 nav.main-menu ul > li ul li:hover a {
     background-color: #1ABC9C;
+	
 }
 nav.main-menu ul > li ul li ul {
     position: absolute;
@@ -542,7 +568,8 @@ nav.main-menu ul .current_page_item > a {
     color: #FFF;
 }
 nav.main-menu ul > li:hover > a, nav.main-menu ul > .current-menu-item > a {
-    background-color: #1ABC9C;
+   border-bottom:4px solid #b50f6e;
+   background-color:transparent;
     color: #FFF;
 }
 .mean-container a.meanmenu-reveal {
@@ -622,6 +649,7 @@ body.page .page-header h1.entry-title {
 }
 #home-slider {
     position: relative;
+	top:-127px;
 }
 #home-slider .content-wrapper {
     position: absolute;
@@ -1240,3 +1268,6 @@ label {
         margin: 0;
     }
 }
+
+
+
