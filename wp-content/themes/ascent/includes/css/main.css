@@ -740,7 +740,7 @@ table thead th:last-child {
     border-right: 1px solid #62C7B3;
 }
 table tbody tr {
-    border-top: 1px solid #e0e0e0;
+    border-top:0px solid #e0e0e0;
 }
 table tbody th {
     font-size: 13px;
@@ -751,7 +751,7 @@ table tbody td {
     font-size: 13px;
     font-weight: 500;
     color: #3a3c41;
-    border: 1px solid #e0e0e0;
+    border: 0px solid #e0e0e0;
     padding: 5px 7px;
 }
 .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
@@ -851,8 +851,9 @@ article.attachment .entry-header #image-navigation .nav-next {
     transition: all 0.4s ease;
 }
 .wp-post-image:hover {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -1132,7 +1133,7 @@ body fieldset label {
     font-size: 13px;
     color: #999ca5;
     font-weight: 500;
-    border-bottom: 2px solid #dcdee4;
+    border-bottom: 0px solid #dcdee4;
     padding: 5px;
     float: left;
 }
@@ -1332,5 +1333,70 @@ opacity:1;}
 
 }
 
+
+#banner {
+    position: relative;
+    top: -85px;
+}
+
+
+.woocommerce fieldset legend{font-family: "Orbitron",sans-serif !important;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    margin-top: 20px;}
+
+.woocommerce .button{ background-color:#313131 !important; color:#fff !important;}
+
+.product-categories{ padding-left:0px;}
+.product-categories li{ list-style:none; margin-bottom:10px; padding:10px; background-color:#f0f0f0;  }
+
+.product-categories li a{ color:#313131;} 
+
+
+.product_list_widget{ padding-left:0px;}
+.product_list_widget li{ list-style:none; margin-bottom:10px  !important; padding:10px !important; background-color:#f0f0f0;  }
+
+.product_list_widget li a{ color:#313131;} 
+
+.page-title{ font-size:2.5em;}
+
+.woocommerce div.product form.cart .variations label{color: #3a3c41;
+    font-size: 11.5px;
+    font-weight: normal;
+    line-height: 52px;}
+	
+	table.wccpf_fields_table td.wccpf_label{ width:auto !important;}
+	.entry-summary{ background-color:#f9f9f9; border:1px solid #d7d7d7; padding:2em;}
+	.wccpf_fields_table { background-color:transparent;}
+	.variations{ background:transparent;}
+.entry-summary ul{ padding-left:15px; }
+.entry-summary ul li{ line-height:25px; }
+
+.wccpf_label{ vertical-align:top;}
+
+.shop_table thead th{ background-color:#f9f9f9; color:#313131;}
+
+.shop_table thead th:first-child {
+    border-left: 1px solid #d7d7d7;
+}
+
+.shop_table thead th:last-child {
+    border-right: 1px solid #d7d7d7;
+}
+
+.actions{ padding:1em;}
+.actions .input-text{ padding: 6px 8px 8px !important; width:130px !important; }
+.cart-collaterals table{ width:100%;}
+.cart-collaterals table th, td{ padding:1em !important;}
+.cart-collaterals table td{ width:50%; text-align:right; }
+
+.shop_table thead th{ border-right: 1px solid #d7d7d7;}
+
+.cart_totals table{ border-top:1px solid #ebe9eb; border-left:1px solid #ebe9eb !important;}
+
+.product-name a{ color:#bf0f6e;}
+
+.woocommerce-billing-fields h3{ font-size:2.5em;}
+.woocommerce-shipping-fields h3{font-size:2.5em;}
 
 
