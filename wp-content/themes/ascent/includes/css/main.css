@@ -122,10 +122,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 
 
 
-.wpb_content_element h2{font-family: 'Orbitron', sans-serif !important;}
+.wpb_content_element h2{font-family: 'Oswald', sans-serif !important;}
 .wpb_text_column p{ text-align:center;}
 .wpb_content_element{ margin-bottom:10px !important;}
-.wpb_wrapper p{ font-size:1.1em !important; line-height:25px !important; color:#414141 !important;}
+.wpb_wrapper p{ font-size:1.1em !important; line-height:25px; color:#414141;}
 
 /* Alignment */
 
@@ -320,7 +320,7 @@ body {
 }
 
 h2, h3{
-   font-family: 'Orbitron', sans-serif !important;
+   font-family: 'Oswald', sans-serif !important;
    font-size:3em;
 }
 
@@ -1222,7 +1222,7 @@ label {
 	.mean-bar{ }
 	
 	.header-bottom-inner .row{ margin-bottom:10px;}
-	.header-bottom{padding: 0 15px 0 0;}
+	.header-bottom{padding: 5px 15px 0 0;}
 	
 	.mean-container .mean-bar{ float:right; width:auto; left:0; right:0; position:absolute; background-color:transparent !important;}
 	
@@ -1314,13 +1314,22 @@ label {
 
 #masthead{background: #000;
 opacity:1;}
+
+
+#banner {
+    position: relative;
+    top: -10px !important ;
+}
+
 	
 }
 
 
 
-@media (min-device-width: 768px) 
-  and (max-device-width: 1280px) {
+
+
+@media (min-width: 768px) 
+  and (max-width: 1280px) {
    .header-search {
         display: none;
     }
@@ -1336,11 +1345,11 @@ opacity:1;}
 
 #banner {
     position: relative;
-    top: -85px;
+    top: -112px;
 }
 
 
-.woocommerce fieldset legend{font-family: "Orbitron",sans-serif !important;
+.woocommerce fieldset legend{font-family:'Oswald', sans-serif; !important;
     font-size: 2.5em;
     margin-bottom: 0;
     margin-top: 20px;}
@@ -1398,5 +1407,7 @@ opacity:1;}
 
 .woocommerce-billing-fields h3{ font-size:2.5em;}
 .woocommerce-shipping-fields h3{font-size:2.5em;}
+
+.about-para-main p{ color:#fff; line-height:20px;}
 
 
