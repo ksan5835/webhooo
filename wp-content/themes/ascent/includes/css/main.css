@@ -26,7 +26,7 @@ body {
 }
 a {
     outline: 0;
-    color: #1ABC9C;
+    color: #b50f6e;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -285,8 +285,23 @@ embed, iframe, object {
  * Most widgets are adapted in the file bootstrap-wp.js - and REALLY easy to modify! ;) */
 
 .widget {
+   
+
     margin-bottom: 2em;
+   
 }
+
+.sidebar .widget {
+   
+	background-color: #f9f9f9;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+.site-footer-inner .widget{ border:0;}
+
 .widget_nav_menu ul.sub-menu li, .widget_pages ul.children li {
     padding-left: 15px;
 }
@@ -315,7 +330,7 @@ embed, iframe, object {
 ----------------------------------------------- */
 
 body {
-    font-family: 'Open Sans', sans-serif, arial;
+     font-family: 'Oswald', sans-serif ;
     font-size: 13px;
 }
 
@@ -326,7 +341,7 @@ h2, h3{
 
 
 h1, h4, h5, h6{
-   font-family: 'Open Sans', sans-serif, arial;
+  font-family: 'Oswald', sans-serif ;
 }
 
 p{  font-family: 'Open Sans', sans-serif, arial;}
@@ -423,7 +438,7 @@ ul.social-icons li.social-icon a {
 ---------------------------------------------------------------------------------- */
 
 .header-search {
-    margin-top: 14px;
+   margin-top: 14px;
     cursor: pointer;
 }
 .header-search:hover {
@@ -515,14 +530,14 @@ nav.main-menu ul > li {
     position: relative;
 }
 nav.main-menu ul > li a {
-
-
-   border-radius: 0;
+border-radius: 0;
     color: #fff;
     display: block;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 25px 12px 15px 12px;
+    font-family: "Oswald";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 25px 12px 15px;
     text-align: left;
     text-decoration: none;
     width: 100%;
@@ -537,25 +552,36 @@ nav.main-menu ul > li ul {
     padding: 0;
     margin: 0;
     position: absolute;
-    top: 34px;
+    top: 60px;
     left: 0;
     width: 190px;
     display: none;
-    border-top: 2px solid #1ABC9C;
+    
     background-color: #262932;
 }
 nav.main-menu ul > li ul li {
     list-style: none;
     float: none;
     position: relative;
-    border-bottom: 1px solid #444;
+    
+	border-bottom: 3px solid #b50f6e;
 }
+
+nav.main-menu ul > li ul li:hover {
+    list-style: none;
+    float: none;
+    position: relative;
+    
+	border-bottom: 0px solid #b50f6e;
+	
+}
+
 nav.main-menu ul > li ul li a {
     color: #FFF;
     padding: 10px 20px;
 }
 nav.main-menu ul > li ul li:hover a {
-    background-color: #1ABC9C;
+   background-color:#b50f6e;
 	
 }
 nav.main-menu ul > li ul li ul {
@@ -568,7 +594,7 @@ nav.main-menu ul .current_page_item > a {
     color: #FFF;
 }
 nav.main-menu ul > li:hover > a, nav.main-menu ul > .current-menu-item > a {
-   border-bottom:4px solid #b50f6e;
+  border-bottom:4px solid #b50f6e;
    background-color:transparent;
     color: #FFF;
 }
@@ -868,7 +894,7 @@ a#scroll-top {
     width: 42px;
     z-index: 9999;
     line-height: 3em;
-    background: #1ABC9C url("../images/scroll-top.png") center center no-repeat;
+    background: #b50f6e url("../images/scroll-top.png") center center no-repeat;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
@@ -1192,7 +1218,8 @@ label {
 	nav.main-menu ul > li a{padding: 5px 12px 15px;}
 	
 	 .header-search {
-        display: none;
+        /*display: none;*/
+		margin-top:0px;
     }
 	
 }
@@ -1224,7 +1251,7 @@ label {
 	.header-bottom-inner .row{ margin-bottom:10px;}
 	.header-bottom{padding: 5px 15px 0 0;}
 	
-	.mean-container .mean-bar{ float:right; width:auto; left:0; right:0; position:absolute; background-color:transparent !important;}
+	.mean-container .mean-bar{ float:right; width:auto; left:60px; right:0; position:absolute; background-color:transparent !important;}
 	
 	
 }
@@ -1276,7 +1303,7 @@ label {
         border-color: rgba(255, 255, 255, 0.1);
     }
     .mean-container .mean-bar .mean-nav ul li a.mean-expand {
-        height: 24px;
+        height: 21px;
     }
     .mean-container .mean-bar .mean-nav ul li a.mean-expand:hover {
         background-color: #d4027e;
@@ -1331,7 +1358,7 @@ opacity:1;}
 @media (min-width: 768px) 
   and (max-width: 1280px) {
    .header-search {
-        display: none;
+      /*  display: none;*/
     }
 	
 	nav.main-menu { display:none;}
@@ -1349,7 +1376,7 @@ opacity:1;}
 }
 
 
-.woocommerce fieldset legend{font-family:'Oswald', sans-serif; !important;
+.woocommerce fieldset legend{font-family:'Oswald', sans-serif !important;
     font-size: 2.5em;
     margin-bottom: 0;
     margin-top: 20px;}
@@ -1409,5 +1436,12 @@ opacity:1;}
 .woocommerce-shipping-fields h3{font-size:2.5em;}
 
 .about-para-main p{ color:#fff; line-height:20px;}
+
+.product-category{ border:2px solid #f0f0f0; padding:1em !important;}
+.products li{border:2px solid #f0f0f0; padding:1em !important;}
+.products li:hover{ border:2px solid #ef69b7;}
+
+.woocommerce-result-count{ color:#999999;}
+
 
 
