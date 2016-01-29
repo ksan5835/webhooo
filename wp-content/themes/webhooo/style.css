@@ -297,3 +297,9 @@ nav.main-menu ul .current_page_item > a {
 .woocommerce ul.products li.product .button{ margin-bottom:1em;}
 
 
+.-filters{ text-align:center; text-transform:capitalize;}
+.-filters a{ padding:0.5em 2em !important; border-radius:5px; letter-spacing:0.5px;}
+
+
+
+
